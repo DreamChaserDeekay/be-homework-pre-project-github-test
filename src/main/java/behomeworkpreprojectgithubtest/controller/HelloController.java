@@ -4,9 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HomeController {
+public class HelloController {
 
-    @GetMapping("/")
+    @GetMapping("/") // 멋진 To-do Application 엔드포인트!
     public String helloWorld() {
         return "To-do Application !";
     }
